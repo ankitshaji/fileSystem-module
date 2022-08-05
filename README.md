@@ -6,3 +6,6 @@
 - module.require() - CommonJS pattern
 - import {} - JSModule pattern
 
+# app.js - using user created - modules
+- directory shelter - index.js entry point
+- math.js - user created module exported
