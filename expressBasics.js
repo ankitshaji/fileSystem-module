@@ -29,7 +29,8 @@ app.listen(3000, () => {
 //res.send(argument) argument accepts diffrents data ,and sets content-type accordingly
 //argument examples - ({user:"string"})-header{Content-Type:application/json} , ("String")header{Content-Type:text/plain}
 //,(<p>html</p>) header{Content-Type:text/html}
-//res.send("String, We got the request , this is the response"); //autoSet - header{Content-Type:application/json}
+//res.send("String, We got the request , this is the response");
+//res.json() - autoSet - header{Content-Type:application/json}
 // });
 
 //routing - incoming request with specific path(/resource) + HTTPmethod (request catching order matters)
