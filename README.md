@@ -1,4 +1,4 @@
-# npm-packages-
+# nodejs-npm-packages-
 # fileSystem - module
 - moduleObject mimics a classObject
 - avoids global variable name space pollution through moduleObject scope
